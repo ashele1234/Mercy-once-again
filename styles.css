@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo img {
+    width: 100px;
+}
+.navbar-container {
+    background-image: 
+   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/pastor.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width:447px) {
+        .navbar-container{
+            display: none;
+        }
+    }
+}
+
+.logo img {
+    height: 100px;
+  
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    @media (max-width:640px) {
+       display: none;
+    }
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+h4 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p, ul {
+    color: #333;
+    text-align: center;
+    padding: 0 20px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+
+.pastor-pic {
+    width: 100%; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Makes the image circular */
+    border: 2px solid #000;
+}
+.events-pic{
+  width: 250px; /* Adjust the size as needed */
+    height: 150px; /* Maintain aspect ratio */
+    border-radius: 20%; /* Makes the image circular */
+    border: 2px solid #000;
+    align-items: center;
+}
+.contact-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form select, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+footer {
+    background-image: 
+   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 100px; 
+    margin-bottom: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-social a img {
+    width: 50px; 
+    margin: 0 10px;
+}
+
+.footer-social a:hover img {
+    opacity: 0.7; 
+}

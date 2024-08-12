@@ -1,0 +1,290 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header .logo img {
+    float: left;
+    width: 120px;
+    height: auto;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+    @media (max-width:640px) {
+      
+            display: none;
+
+    }
+}
+
+/* Banner Styles */
+.banner {
+    background: url('images/pastor.png') no-repeat center center/cover;
+    height: 400px;
+    text-align: center;
+    color: #fff;
+    padding-top: 150px;
+}
+
+.banner h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 20px;
+}
+
+/* Section Styles */
+section {
+    padding: 20px 0;
+}
+
+section h2 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+}
+
+/* Ministries Section */
+.ministries {
+    background-color: #fff;
+    padding: 40px 0;
+    border-bottom: #77aaff 3px solid;
+}
+
+.ministries .ministry {
+    margin-bottom: 20px;
+}
+
+.ministries .ministry h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.ministries .ministry p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Events Section */
+.events .event {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: #77aaff 5px solid;
+}
+
+.events .event h3 {
+    font-size: 24px;
+}
+
+.events .event p {
+    font-size: 16px;
+}
+
+/* Sermons Section */
+.sermons .sermon {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: #77aaff 5px solid;
+}
+
+.sermons .sermon h3 {
+    font-size: 24px;
+}
+
+.sermons .sermon p {
+    font-size: 16px;
+}
+
+.sermons .sermon a {
+    display: inline-block;
+    background-color: #77aaff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.sermons .sermon a:hover {
+    background-color: #5599dd;
+}
+
+/* Donate Section */
+.donate {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px 0;
+    border-top: #77aaff 3px solid;
+}
+
+.donate h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.donate p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.donate .btn {
+    background-color: #77aaff;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.donate .btn:hover {
+    background-color: #5599dd;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.contact p {
+    font-size: 18px;
+}
+
+.contact form {
+    margin-top: 20px;
+}
+
+.contact .form-group {
+    margin-bottom: 15px;
+}
+
+.contact .form-group label {
+    font-size: 16px;
+    display: block;
+}
+
+.contact .form-group input,
+.contact .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #77aaff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.contact button:hover {
+    background-color: #5599dd;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+footer .social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header nav {
+        float: none;
+        text-align: center;
+    }
+
+    header li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .banner h1 {
+        font-size: 40px;
+    }
+
+    .banner p {
+        font-size: 18px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
